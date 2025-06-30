@@ -74,6 +74,18 @@
 			<artifactId>langchain4j-easy-rag</artifactId>
 			<version>1.0.1-beta6</version>
 		</dependency>
+		<!--pdf解析器依赖-->
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-document-parser-apache-pdfbox</artifactId>
+			<version>1.0.1-beta6</version>
+		</dependency>
+		<!--引入Langchain4j对于redis向量数据库的支持-->
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-community-redis-spring-boot-starter</artifactId>
+			<version>1.0.1-beta6</version>
+		</dependency>
 	</dependencies>
 
 	<build>
